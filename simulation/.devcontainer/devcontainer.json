@@ -1,5 +1,5 @@
 {
-  "name": "Raspberry PI",
+  "name": "Ground station",
   "dockerFile": "Dockerfile",
   "runArgs": [
     "--privileged",

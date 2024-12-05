@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /raspberry-pg/ros2_ws/src/navigation_pkg
+CMAKE_SOURCE_DIR = /simulation/ros2_sim_ws/src/navigation_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /raspberry-pg/ros2_ws/build/navigation_pkg
+CMAKE_BINARY_DIR = /simulation/ros2_sim_ws/build/navigation_pkg
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /raspberry-pg/ros2_ws/build/navigation_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /raspberry-pg/ros2_ws/src/navigation_pkg /raspberry-pg/ros2_ws/src/navigation_pkg /raspberry-pg/ros2_ws/build/navigation_pkg /raspberry-pg/ros2_ws/build/navigation_pkg /raspberry-pg/ros2_ws/build/navigation_pkg/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /simulation/ros2_sim_ws/build/navigation_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /simulation/ros2_sim_ws/src/navigation_pkg /simulation/ros2_sim_ws/src/navigation_pkg /simulation/ros2_sim_ws/build/navigation_pkg /simulation/ros2_sim_ws/build/navigation_pkg /simulation/ros2_sim_ws/build/navigation_pkg/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

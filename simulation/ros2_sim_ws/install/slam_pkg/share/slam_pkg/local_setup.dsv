@@ -1,2 +1,1 @@
-source;share/slam_pkg/environment/ament_prefix_path.sh
-source;share/slam_pkg/environment/path.sh
+/simulation/ros2_sim_ws/build/slam_pkg/ament_cmake_environment_hooks/local_setup.dsv

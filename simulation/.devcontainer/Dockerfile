@@ -54,3 +54,13 @@ RUN sudo curl https://packages.osrfoundation.org/gazebo.gpg --output /usr/share/
 RUN echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/gazebo-stable.list > /dev/null
 RUN sudo apt-get update 
 RUN sudo apt-get install -y ignition-fortress
+
+# Installing rviz
+RUN sudo apt install ros-humble-rviz2
+
+# Installing packages to help with urtf file creationg
+RUN sudo apt install ros-humble-xacro ros-humble-joint-state-publisher-gui -y
+
+RUN sudo apt install ros-humble-rqt-graph -y
+
+RUN sudo apt install ros-humble-gazebo-ros-pkgs -y
