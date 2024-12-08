@@ -64,3 +64,5 @@ RUN sudo apt install ros-humble-xacro ros-humble-joint-state-publisher-gui -y
 RUN sudo apt install ros-humble-rqt-graph -y
 
 RUN sudo apt install ros-humble-gazebo-ros-pkgs -y
+
+RUN sudo apt install ros-humble-teleop-twist-keyboard -y

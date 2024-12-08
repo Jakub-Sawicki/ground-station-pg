@@ -1,0 +1,53 @@
+[0.050s] Invoking command in '/simulation/ros2_sim_ws/build/learning_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /simulation/ros2_sim_ws/src/learning_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/simulation/ros2_sim_ws/install/learning_package
+[0.196s] -- The C compiler identification is GNU 11.4.0
+[0.382s] -- The CXX compiler identification is GNU 11.4.0
+[0.411s] -- Detecting C compiler ABI info
+[0.568s] -- Detecting C compiler ABI info - done
+[0.588s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.588s] -- Detecting C compile features
+[0.589s] -- Detecting C compile features - done
+[0.599s] -- Detecting CXX compiler ABI info
+[0.774s] -- Detecting CXX compiler ABI info - done
+[0.790s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.790s] -- Detecting CXX compile features
+[0.792s] -- Detecting CXX compile features - done
+[0.799s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.117s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.256s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.330s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.510s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.512s] -- Added test 'lint_cmake' to check CMake code style
+[1.514s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.518s] -- Added test 'xmllint' to check XML markup files
+[1.522s] -- Configuring done
+[1.527s] -- Generating done
+[1.530s] -- Build files have been written to: /simulation/ros2_sim_ws/build/learning_package
+[1.545s] Invoked command in '/simulation/ros2_sim_ws/build/learning_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /simulation/ros2_sim_ws/src/learning_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/simulation/ros2_sim_ws/install/learning_package
+[1.549s] Invoking command in '/simulation/ros2_sim_ws/build/learning_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /simulation/ros2_sim_ws/build/learning_package -- -j8 -l8
+[1.632s] Invoked command in '/simulation/ros2_sim_ws/build/learning_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /simulation/ros2_sim_ws/build/learning_package -- -j8 -l8
+[1.702s] Invoking command in '/simulation/ros2_sim_ws/build/learning_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /simulation/ros2_sim_ws/build/learning_package
+[1.726s] -- Install configuration: ""
+[1.727s] -- Execute custom install script
+[1.727s] -- Symlinking: /simulation/ros2_sim_ws/install/learning_package/share/learning_package/launch/listener.launch.py
+[1.742s] -- Symlinking: /simulation/ros2_sim_ws/install/learning_package/share/learning_package/launch/robot_sim.launch.py
+[1.759s] -- Symlinking: /simulation/ros2_sim_ws/install/learning_package/share/learning_package/launch/robot_urdf.launch.py
+[1.775s] -- Symlinking: /simulation/ros2_sim_ws/install/learning_package/share/learning_package/launch/talker.launch.py
+[1.792s] -- Symlinking: /simulation/ros2_sim_ws/install/learning_package/share/learning_package/description/example_gazebo.xacro
+[1.807s] -- Symlinking: /simulation/ros2_sim_ws/install/learning_package/share/learning_package/description/example_include.xacro
+[1.826s] -- Symlinking: /simulation/ros2_sim_ws/install/learning_package/share/learning_package/description/example_robot.urdf.xacro
+[1.845s] -- Symlinking: /simulation/ros2_sim_ws/install/learning_package/share/ament_index/resource_index/package_run_dependencies/learning_package
+[1.862s] -- Symlinking: /simulation/ros2_sim_ws/install/learning_package/share/ament_index/resource_index/parent_prefix_path/learning_package
+[1.883s] -- Symlinking: /simulation/ros2_sim_ws/install/learning_package/share/learning_package/environment/ament_prefix_path.sh
+[1.898s] -- Symlinking: /simulation/ros2_sim_ws/install/learning_package/share/learning_package/environment/ament_prefix_path.dsv
+[1.914s] -- Symlinking: /simulation/ros2_sim_ws/install/learning_package/share/learning_package/environment/path.sh
+[1.932s] -- Symlinking: /simulation/ros2_sim_ws/install/learning_package/share/learning_package/environment/path.dsv
+[1.947s] -- Symlinking: /simulation/ros2_sim_ws/install/learning_package/share/learning_package/local_setup.bash
+[1.962s] -- Symlinking: /simulation/ros2_sim_ws/install/learning_package/share/learning_package/local_setup.sh
+[1.978s] -- Symlinking: /simulation/ros2_sim_ws/install/learning_package/share/learning_package/local_setup.zsh
+[1.996s] -- Symlinking: /simulation/ros2_sim_ws/install/learning_package/share/learning_package/local_setup.dsv
+[2.010s] -- Symlinking: /simulation/ros2_sim_ws/install/learning_package/share/learning_package/package.dsv
+[2.032s] -- Symlinking: /simulation/ros2_sim_ws/install/learning_package/share/ament_index/resource_index/packages/learning_package
+[2.053s] -- Symlinking: /simulation/ros2_sim_ws/install/learning_package/share/learning_package/cmake/learning_packageConfig.cmake
+[2.075s] -- Symlinking: /simulation/ros2_sim_ws/install/learning_package/share/learning_package/cmake/learning_packageConfig-version.cmake
+[2.093s] -- Symlinking: /simulation/ros2_sim_ws/install/learning_package/share/learning_package/package.xml
+[2.119s] Invoked command in '/simulation/ros2_sim_ws/build/learning_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /simulation/ros2_sim_ws/build/learning_package
