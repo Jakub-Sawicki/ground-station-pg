@@ -1,9 +1,11 @@
 {
-  "name": "Raspberry PI",
+  "name": "Ground station",
   "dockerFile": "Dockerfile",
   "runArgs": [
     "--privileged",
-    "--network=host"
+    "--network=host",
+    "-e", "DISPLAY=${localEnv:DISPLAY}",
+    "-v", "/tmp/.X11-unix:/tmp/.X11-unix:rw"
   ],
   "workspaceMount": "source=${localWorkspaceFolder},target=/${localWorkspaceFolderBasename},type=bind",
   "workspaceFolder": "/${localWorkspaceFolderBasename}",

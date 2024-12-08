@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /raspberry-pg/ros2_ws/src/navigation_pkg
+CMAKE_SOURCE_DIR = /simulation/ros2_sim_ws/src/navigation_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /raspberry-pg/ros2_ws/build/navigation_pkg
+CMAKE_BINARY_DIR = /simulation/ros2_sim_ws/build/navigation_pkg
 
 # Utility rule file for navigation_pkg_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/navigation_pkg_uninstall.dir/compiler_depend.make
 include CMakeFiles/navigation_pkg_uninstall.dir/progress.make
 
 CMakeFiles/navigation_pkg_uninstall:
-	/usr/bin/cmake -P /raspberry-pg/ros2_ws/build/navigation_pkg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /simulation/ros2_sim_ws/build/navigation_pkg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 navigation_pkg_uninstall: CMakeFiles/navigation_pkg_uninstall
 navigation_pkg_uninstall: CMakeFiles/navigation_pkg_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/navigation_pkg_uninstall.dir/clean:
 .PHONY : CMakeFiles/navigation_pkg_uninstall.dir/clean
 
 CMakeFiles/navigation_pkg_uninstall.dir/depend:
-	cd /raspberry-pg/ros2_ws/build/navigation_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /raspberry-pg/ros2_ws/src/navigation_pkg /raspberry-pg/ros2_ws/src/navigation_pkg /raspberry-pg/ros2_ws/build/navigation_pkg /raspberry-pg/ros2_ws/build/navigation_pkg /raspberry-pg/ros2_ws/build/navigation_pkg/CMakeFiles/navigation_pkg_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /simulation/ros2_sim_ws/build/navigation_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /simulation/ros2_sim_ws/src/navigation_pkg /simulation/ros2_sim_ws/src/navigation_pkg /simulation/ros2_sim_ws/build/navigation_pkg /simulation/ros2_sim_ws/build/navigation_pkg /simulation/ros2_sim_ws/build/navigation_pkg/CMakeFiles/navigation_pkg_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/navigation_pkg_uninstall.dir/depend
 

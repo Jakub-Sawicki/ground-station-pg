@@ -1,0 +1,2 @@
+Invoking command in '/simulation/ros2_sim_ws/build/slam_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /simulation/ros2_sim_ws/src/slam_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/simulation/ros2_sim_ws/install/slam_pkg
+Invoked command in '/simulation/ros2_sim_ws/build/slam_pkg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /simulation/ros2_sim_ws/src/slam_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/simulation/ros2_sim_ws/install/slam_pkg

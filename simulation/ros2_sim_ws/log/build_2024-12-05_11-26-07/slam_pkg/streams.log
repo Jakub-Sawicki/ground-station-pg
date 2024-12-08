@@ -1,0 +1,44 @@
+[0.037s] Invoking command in '/simulation/ros2_sim_ws/build/slam_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /simulation/ros2_sim_ws/src/slam_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/simulation/ros2_sim_ws/install/slam_pkg
+[0.213s] -- The C compiler identification is GNU 11.4.0
+[0.380s] -- The CXX compiler identification is GNU 11.4.0
+[0.402s] -- Detecting C compiler ABI info
+[0.571s] -- Detecting C compiler ABI info - done
+[0.596s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.598s] -- Detecting C compile features
+[0.598s] -- Detecting C compile features - done
+[0.608s] -- Detecting CXX compiler ABI info
+[0.773s] -- Detecting CXX compiler ABI info - done
+[0.794s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.795s] -- Detecting CXX compile features
+[0.797s] -- Detecting CXX compile features - done
+[0.803s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.125s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.260s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.330s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.517s] -- Added test 'lint_cmake' to check CMake code style
+[1.519s] -- Added test 'xmllint' to check XML markup files
+[1.522s] -- Configuring done
+[1.527s] -- Generating done
+[1.529s] -- Build files have been written to: /simulation/ros2_sim_ws/build/slam_pkg
+[1.538s] Invoked command in '/simulation/ros2_sim_ws/build/slam_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /simulation/ros2_sim_ws/src/slam_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/simulation/ros2_sim_ws/install/slam_pkg
+[1.541s] Invoking command in '/simulation/ros2_sim_ws/build/slam_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /simulation/ros2_sim_ws/build/slam_pkg -- -j8 -l8
+[1.617s] Invoked command in '/simulation/ros2_sim_ws/build/slam_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /simulation/ros2_sim_ws/build/slam_pkg -- -j8 -l8
+[1.674s] Invoking command in '/simulation/ros2_sim_ws/build/slam_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /simulation/ros2_sim_ws/build/slam_pkg
+[1.695s] -- Install configuration: ""
+[1.695s] -- Execute custom install script
+[1.695s] -- Symlinking: /simulation/ros2_sim_ws/install/slam_pkg/share/ament_index/resource_index/package_run_dependencies/slam_pkg
+[1.714s] -- Symlinking: /simulation/ros2_sim_ws/install/slam_pkg/share/ament_index/resource_index/parent_prefix_path/slam_pkg
+[1.732s] -- Symlinking: /simulation/ros2_sim_ws/install/slam_pkg/share/slam_pkg/environment/ament_prefix_path.sh
+[1.750s] -- Symlinking: /simulation/ros2_sim_ws/install/slam_pkg/share/slam_pkg/environment/ament_prefix_path.dsv
+[1.767s] -- Symlinking: /simulation/ros2_sim_ws/install/slam_pkg/share/slam_pkg/environment/path.sh
+[1.785s] -- Symlinking: /simulation/ros2_sim_ws/install/slam_pkg/share/slam_pkg/environment/path.dsv
+[1.805s] -- Symlinking: /simulation/ros2_sim_ws/install/slam_pkg/share/slam_pkg/local_setup.bash
+[1.823s] -- Symlinking: /simulation/ros2_sim_ws/install/slam_pkg/share/slam_pkg/local_setup.sh
+[1.843s] -- Symlinking: /simulation/ros2_sim_ws/install/slam_pkg/share/slam_pkg/local_setup.zsh
+[1.860s] -- Symlinking: /simulation/ros2_sim_ws/install/slam_pkg/share/slam_pkg/local_setup.dsv
+[1.876s] -- Symlinking: /simulation/ros2_sim_ws/install/slam_pkg/share/slam_pkg/package.dsv
+[1.895s] -- Symlinking: /simulation/ros2_sim_ws/install/slam_pkg/share/ament_index/resource_index/packages/slam_pkg
+[1.912s] -- Symlinking: /simulation/ros2_sim_ws/install/slam_pkg/share/slam_pkg/cmake/slam_pkgConfig.cmake
+[1.927s] -- Symlinking: /simulation/ros2_sim_ws/install/slam_pkg/share/slam_pkg/cmake/slam_pkgConfig-version.cmake
+[1.944s] -- Symlinking: /simulation/ros2_sim_ws/install/slam_pkg/share/slam_pkg/package.xml
+[1.975s] Invoked command in '/simulation/ros2_sim_ws/build/slam_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /simulation/ros2_sim_ws/build/slam_pkg

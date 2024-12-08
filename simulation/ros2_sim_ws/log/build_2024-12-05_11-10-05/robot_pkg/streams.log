@@ -1,0 +1,46 @@
+[0.047s] Invoking command in '/simulation/ros2_sim_ws/build/robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /simulation/ros2_sim_ws/src/robot_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/simulation/ros2_sim_ws/install/robot_pkg
+[0.251s] -- The C compiler identification is GNU 11.4.0
+[0.418s] -- The CXX compiler identification is GNU 11.4.0
+[0.436s] -- Detecting C compiler ABI info
+[0.618s] -- Detecting C compiler ABI info - done
+[0.639s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.640s] -- Detecting C compile features
+[0.641s] -- Detecting C compile features - done
+[0.648s] -- Detecting CXX compiler ABI info
+[0.803s] -- Detecting CXX compiler ABI info - done
+[0.820s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.820s] -- Detecting CXX compile features
+[0.821s] -- Detecting CXX compile features - done
+[0.837s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.128s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.265s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.355s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.544s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.545s] -- Added test 'lint_cmake' to check CMake code style
+[1.547s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.550s] -- Added test 'xmllint' to check XML markup files
+[1.554s] -- Configuring done
+[1.560s] -- Generating done
+[1.562s] -- Build files have been written to: /simulation/ros2_sim_ws/build/robot_pkg
+[1.574s] Invoked command in '/simulation/ros2_sim_ws/build/robot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /simulation/ros2_sim_ws/src/robot_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/simulation/ros2_sim_ws/install/robot_pkg
+[1.576s] Invoking command in '/simulation/ros2_sim_ws/build/robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /simulation/ros2_sim_ws/build/robot_pkg -- -j8 -l8
+[1.652s] Invoked command in '/simulation/ros2_sim_ws/build/robot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /simulation/ros2_sim_ws/build/robot_pkg -- -j8 -l8
+[1.700s] Invoking command in '/simulation/ros2_sim_ws/build/robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /simulation/ros2_sim_ws/build/robot_pkg
+[1.716s] -- Install configuration: ""
+[1.717s] -- Execute custom install script
+[1.717s] -- Symlinking: /simulation/ros2_sim_ws/install/robot_pkg/share/ament_index/resource_index/package_run_dependencies/robot_pkg
+[1.735s] -- Symlinking: /simulation/ros2_sim_ws/install/robot_pkg/share/ament_index/resource_index/parent_prefix_path/robot_pkg
+[1.753s] -- Symlinking: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/environment/ament_prefix_path.sh
+[1.770s] -- Symlinking: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/environment/ament_prefix_path.dsv
+[1.788s] -- Symlinking: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/environment/path.sh
+[1.805s] -- Symlinking: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/environment/path.dsv
+[1.821s] -- Symlinking: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/local_setup.bash
+[1.838s] -- Symlinking: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/local_setup.sh
+[1.854s] -- Symlinking: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/local_setup.zsh
+[1.871s] -- Symlinking: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/local_setup.dsv
+[1.887s] -- Symlinking: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/package.dsv
+[1.904s] -- Symlinking: /simulation/ros2_sim_ws/install/robot_pkg/share/ament_index/resource_index/packages/robot_pkg
+[1.921s] -- Symlinking: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/cmake/robot_pkgConfig.cmake
+[1.937s] -- Symlinking: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/cmake/robot_pkgConfig-version.cmake
+[1.954s] -- Symlinking: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/package.xml
+[1.973s] Invoked command in '/simulation/ros2_sim_ws/build/robot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /simulation/ros2_sim_ws/build/robot_pkg
