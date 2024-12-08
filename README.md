@@ -10,7 +10,11 @@ ros2 launch robot_pkg launch_sim.launch.py
 ```
 
 Aby kontrolować ruchy robota w symulacji należy odpalić:
-`ros2 run teleop_twist_keyboard teleop_twist_keyboard`
+```bash
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+```
 
 Aby odpalić rviz2 z poglądem na obecny stan robota:
-`rviz2 -d /ścieżka/do/robot_sim.rviz`
+```bash
+rviz2 -d /ścieżka/do/robot_sim.rviz
+```
