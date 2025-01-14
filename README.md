@@ -4,6 +4,7 @@ Instrukcja odpalenia symulacji
 
 ```bash
 cd ros2_sim_ws
+rm -rf build install log
 colcon build --symlink-install
 source install/setup.bash
 ros2 launch robot_pkg launch_sim.launch.py
