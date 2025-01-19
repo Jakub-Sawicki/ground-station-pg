@@ -1,2 +1,0 @@
-Invoking command in '/simulation/ros2_sim_ws/build/learning_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /simulation/ros2_sim_ws/build/learning_package -- -j8 -l8
-Invoked command in '/simulation/ros2_sim_ws/build/learning_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /simulation/ros2_sim_ws/build/learning_package -- -j8 -l8

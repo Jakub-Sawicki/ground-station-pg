@@ -248,5 +248,4 @@
         <mul1>{mul1}</mul1>
         <mul2>{mul2}</mul2>
     </gazebo>
-
 </robot>

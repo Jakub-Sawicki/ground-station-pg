@@ -1,6 +1,0 @@
-Invoking command in '/simulation/ros2_sim_ws/build/navigation_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /simulation/ros2_sim_ws/src/navigation_pkg -DCMAKE_INSTALL_PREFIX=/simulation/ros2_sim_ws/install/navigation_pkg
-Invoked command in '/simulation/ros2_sim_ws/build/navigation_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /simulation/ros2_sim_ws/src/navigation_pkg -DCMAKE_INSTALL_PREFIX=/simulation/ros2_sim_ws/install/navigation_pkg
-Invoking command in '/simulation/ros2_sim_ws/build/navigation_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /simulation/ros2_sim_ws/build/navigation_pkg -- -j8 -l8
-Invoked command in '/simulation/ros2_sim_ws/build/navigation_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /simulation/ros2_sim_ws/build/navigation_pkg -- -j8 -l8
-Invoking command in '/simulation/ros2_sim_ws/build/navigation_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /simulation/ros2_sim_ws/build/navigation_pkg
-Invoked command in '/simulation/ros2_sim_ws/build/navigation_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /simulation/ros2_sim_ws/build/navigation_pkg

@@ -1,1 +1,0 @@
-/simulation/ros2_sim_ws/build/learning_package/ament_cmake_environment_hooks/local_setup.sh

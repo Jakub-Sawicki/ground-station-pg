@@ -1,9 +1,0 @@
-/simulation/ros2_sim_ws/build/learning_package/CMakeFiles/uninstall.dir
-/simulation/ros2_sim_ws/build/learning_package/CMakeFiles/learning_package_uninstall.dir
-/simulation/ros2_sim_ws/build/learning_package/CMakeFiles/test.dir
-/simulation/ros2_sim_ws/build/learning_package/CMakeFiles/edit_cache.dir
-/simulation/ros2_sim_ws/build/learning_package/CMakeFiles/rebuild_cache.dir
-/simulation/ros2_sim_ws/build/learning_package/CMakeFiles/list_install_components.dir
-/simulation/ros2_sim_ws/build/learning_package/CMakeFiles/install.dir
-/simulation/ros2_sim_ws/build/learning_package/CMakeFiles/install/local.dir
-/simulation/ros2_sim_ws/build/learning_package/CMakeFiles/install/strip.dir

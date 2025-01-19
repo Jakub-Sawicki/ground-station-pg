@@ -1,0 +1,44 @@
+[0.013s] Invoking command in '/simulation/ros2_sim_ws/build/navigation_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /simulation/ros2_sim_ws/src/navigation_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/simulation/ros2_sim_ws/install/navigation_pkg
+[0.081s] -- The C compiler identification is GNU 11.4.0
+[0.144s] -- The CXX compiler identification is GNU 11.4.0
+[0.151s] -- Detecting C compiler ABI info
+[0.219s] -- Detecting C compiler ABI info - done
+[0.226s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.227s] -- Detecting C compile features
+[0.227s] -- Detecting C compile features - done
+[0.231s] -- Detecting CXX compiler ABI info
+[0.313s] -- Detecting CXX compiler ABI info - done
+[0.327s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.328s] -- Detecting CXX compile features
+[0.328s] -- Detecting CXX compile features - done
+[0.331s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.460s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.533s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.597s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.689s] -- Added test 'lint_cmake' to check CMake code style
+[0.690s] -- Added test 'xmllint' to check XML markup files
+[0.691s] -- Configuring done
+[0.693s] -- Generating done
+[0.696s] -- Build files have been written to: /simulation/ros2_sim_ws/build/navigation_pkg
+[0.702s] Invoked command in '/simulation/ros2_sim_ws/build/navigation_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /simulation/ros2_sim_ws/src/navigation_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/simulation/ros2_sim_ws/install/navigation_pkg
+[0.704s] Invoking command in '/simulation/ros2_sim_ws/build/navigation_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /simulation/ros2_sim_ws/build/navigation_pkg -- -j12 -l12
+[0.746s] Invoked command in '/simulation/ros2_sim_ws/build/navigation_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /simulation/ros2_sim_ws/build/navigation_pkg -- -j12 -l12
+[0.757s] Invoking command in '/simulation/ros2_sim_ws/build/navigation_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /simulation/ros2_sim_ws/build/navigation_pkg
+[0.766s] -- Install configuration: ""
+[0.766s] -- Execute custom install script
+[0.766s] -- Symlinking: /simulation/ros2_sim_ws/install/navigation_pkg/share/ament_index/resource_index/package_run_dependencies/navigation_pkg
+[0.779s] -- Symlinking: /simulation/ros2_sim_ws/install/navigation_pkg/share/ament_index/resource_index/parent_prefix_path/navigation_pkg
+[0.789s] -- Symlinking: /simulation/ros2_sim_ws/install/navigation_pkg/share/navigation_pkg/environment/ament_prefix_path.sh
+[0.798s] -- Symlinking: /simulation/ros2_sim_ws/install/navigation_pkg/share/navigation_pkg/environment/ament_prefix_path.dsv
+[0.806s] -- Symlinking: /simulation/ros2_sim_ws/install/navigation_pkg/share/navigation_pkg/environment/path.sh
+[0.814s] -- Symlinking: /simulation/ros2_sim_ws/install/navigation_pkg/share/navigation_pkg/environment/path.dsv
+[0.824s] -- Symlinking: /simulation/ros2_sim_ws/install/navigation_pkg/share/navigation_pkg/local_setup.bash
+[0.834s] -- Symlinking: /simulation/ros2_sim_ws/install/navigation_pkg/share/navigation_pkg/local_setup.sh
+[0.843s] -- Symlinking: /simulation/ros2_sim_ws/install/navigation_pkg/share/navigation_pkg/local_setup.zsh
+[0.853s] -- Symlinking: /simulation/ros2_sim_ws/install/navigation_pkg/share/navigation_pkg/local_setup.dsv
+[0.862s] -- Symlinking: /simulation/ros2_sim_ws/install/navigation_pkg/share/navigation_pkg/package.dsv
+[0.870s] -- Symlinking: /simulation/ros2_sim_ws/install/navigation_pkg/share/ament_index/resource_index/packages/navigation_pkg
+[0.878s] -- Symlinking: /simulation/ros2_sim_ws/install/navigation_pkg/share/navigation_pkg/cmake/navigation_pkgConfig.cmake
+[0.888s] -- Symlinking: /simulation/ros2_sim_ws/install/navigation_pkg/share/navigation_pkg/cmake/navigation_pkgConfig-version.cmake
+[0.901s] -- Symlinking: /simulation/ros2_sim_ws/install/navigation_pkg/share/navigation_pkg/package.xml
+[0.914s] Invoked command in '/simulation/ros2_sim_ws/build/navigation_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /simulation/ros2_sim_ws/build/navigation_pkg

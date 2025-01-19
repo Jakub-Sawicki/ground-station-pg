@@ -1,1 +1,0 @@
-/simulation/ros2_sim_ws/src/learning_package/launch/robot_urdf.launch.py
