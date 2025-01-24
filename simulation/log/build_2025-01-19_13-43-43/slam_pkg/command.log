@@ -1,6 +1,0 @@
-Invoking command in '/simulation/build/slam_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /simulation/ros2_sim_ws/src/slam_pkg -DCMAKE_INSTALL_PREFIX=/simulation/install/slam_pkg
-Invoked command in '/simulation/build/slam_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /simulation/ros2_sim_ws/src/slam_pkg -DCMAKE_INSTALL_PREFIX=/simulation/install/slam_pkg
-Invoking command in '/simulation/build/slam_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /simulation/build/slam_pkg -- -j12 -l12
-Invoked command in '/simulation/build/slam_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /simulation/build/slam_pkg -- -j12 -l12
-Invoking command in '/simulation/build/slam_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /simulation/build/slam_pkg
-Invoked command in '/simulation/build/slam_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /simulation/build/slam_pkg

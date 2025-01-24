@@ -1,0 +1,6 @@
+Invoking command in '/simulation/ros2_sim_ws/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /simulation/ros2_sim_ws/src/ldlidar_stl_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/simulation/ros2_sim_ws/install/ldlidar_stl_ros2
+Invoked command in '/simulation/ros2_sim_ws/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /simulation/ros2_sim_ws/src/ldlidar_stl_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/simulation/ros2_sim_ws/install/ldlidar_stl_ros2
+Invoking command in '/simulation/ros2_sim_ws/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /simulation/ros2_sim_ws/build/ldlidar_stl_ros2 -- -j12 -l12
+Invoked command in '/simulation/ros2_sim_ws/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /simulation/ros2_sim_ws/build/ldlidar_stl_ros2 -- -j12 -l12
+Invoking command in '/simulation/ros2_sim_ws/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /simulation/ros2_sim_ws/build/ldlidar_stl_ros2
+Invoked command in '/simulation/ros2_sim_ws/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /simulation/ros2_sim_ws/build/ldlidar_stl_ros2

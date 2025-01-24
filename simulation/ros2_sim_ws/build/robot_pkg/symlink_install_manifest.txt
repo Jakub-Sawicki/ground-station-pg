@@ -2,9 +2,12 @@
 /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/launch/robot_urdf.launch.py
 /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description/gazebo_control.xacro
 /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description/inertial_macros.xacro
+/simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description/lidar.xacro
 /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description/robot.urdf.xacro
 /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description/robot_core.xacro
+/simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/config/joy_config.yaml
 /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/config/robot_sim.rviz
+/simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/config/twist_mux.yaml
 /simulation/ros2_sim_ws/install/robot_pkg/share/ament_index/resource_index/package_run_dependencies/robot_pkg
 /simulation/ros2_sim_ws/install/robot_pkg/share/ament_index/resource_index/parent_prefix_path/robot_pkg
 /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/environment/ament_prefix_path.sh
