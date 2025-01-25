@@ -88,7 +88,7 @@
                 <wheel_separation>1.2</wheel_separation>
                 <wheel_radius>0.4</wheel_radius>
                 <odom_publish_frequency>1</odom_publish_frequency>
-                <topic>cmd_vel</topic>
+                <topic>/diff_cont/cmd_vel_unstamped</topic>
             </plugin>
 
             <!-- Moving Forward-->
@@ -97,7 +97,7 @@
                 <input type="ignition.msgs.Int32" topic="/keyboard/keypress">
                     <match field="data">16777235</match>
                 </input>
-                <output type="ignition.msgs.Twist" topic="/cmd_vel">
+                <output type="ignition.msgs.Twist" topic="/diff_cont/cmd_vel_unstamped">
                     linear: {x: 0.5}, angular: {z: 0.0}
                 </output>
             </plugin>
@@ -108,7 +108,7 @@
                 <input type="ignition.msgs.Int32" topic="/keyboard/keypress">
                     <match field="data">16777237</match>
                 </input>
-                <output type="ignition.msgs.Twist" topic="/cmd_vel">
+                <output type="ignition.msgs.Twist" topic="/diff_cont/cmd_vel_unstamped">
                     linear: {x: -0.5}, angular: {z: 0.0}
                 </output>
             </plugin>
@@ -119,7 +119,7 @@
                 <input type="ignition.msgs.Int32" topic="/keyboard/keypress">
                     <match field="data">16777236</match>
                 </input>
-                <output type="ignition.msgs.Twist" topic="/cmd_vel">
+                <output type="ignition.msgs.Twist" topic="/diff_cont/cmd_vel_unstamped">
                     linear: {x: 0.0}, angular: {z: -0.5}
                 </output>
             </plugin>
@@ -130,7 +130,7 @@
                 <input type="ignition.msgs.Int32" topic="/keyboard/keypress">
                     <match field="data">16777234</match>
                 </input>
-                <output type="ignition.msgs.Twist" topic="/cmd_vel">
+                <output type="ignition.msgs.Twist" topic="/diff_cont/cmd_vel_unstamped">
                     linear: {x: 0.0}, angular: {z: 0.5}
                 </output>
             </plugin>
@@ -399,7 +399,7 @@
             <input type="gz.msgs.Boolean" topic="/wall/touched">
                 <match>data: true</match>
             </input>
-            <output type="gz.msgs.Twist" topic="/cmd_vel">
+            <output type="gz.msgs.Twist" topic="/diff_cont/cmd_vel_unstamped">
                 linear: {x: 0.0}, angular: {z: 0.0}
             </output>
         </plugin>

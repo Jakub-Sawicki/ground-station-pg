@@ -1,6 +1,7 @@
-joy_node:
+joy_linux_node:
   ros__parameters:
     dev: "/dev/input/js0"
+    use_ff: false
     deadzone: 0.1
     autorepeat_rate: 20.0
     coalesce_interval: 0.001
