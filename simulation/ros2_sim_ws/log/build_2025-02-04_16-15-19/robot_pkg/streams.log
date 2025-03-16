@@ -1,0 +1,33 @@
+[0.517s] Invoking command in '/simulation/ros2_sim_ws/build/robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/simulation/ros2_sim_ws/install/joystick_tester:/opt/ros/humble /usr/bin/cmake --build /simulation/ros2_sim_ws/build/robot_pkg -- -j8 -l8
+[0.594s] Invoked command in '/simulation/ros2_sim_ws/build/robot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/simulation/ros2_sim_ws/install/joystick_tester:/opt/ros/humble /usr/bin/cmake --build /simulation/ros2_sim_ws/build/robot_pkg -- -j8 -l8
+[0.656s] Invoking command in '/simulation/ros2_sim_ws/build/robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/simulation/ros2_sim_ws/install/joystick_tester:/opt/ros/humble /usr/bin/cmake --install /simulation/ros2_sim_ws/build/robot_pkg
+[0.669s] -- Install configuration: ""
+[0.670s] -- Execute custom install script
+[0.671s] -- Up-to-date symlink: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/launch/joystick.launch.py
+[0.672s] -- Up-to-date symlink: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/launch/joystick_kuba.launch.py
+[0.672s] -- Up-to-date symlink: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/launch/launch_sim.launch.py
+[0.672s] -- Up-to-date symlink: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/launch/robot_urdf.launch.py
+[0.673s] -- Up-to-date symlink: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description/gazebo_control.xacro
+[0.673s] -- Up-to-date symlink: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description/inertial_macros.xacro
+[0.673s] -- Up-to-date symlink: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description/lidar.xacro
+[0.673s] -- Up-to-date symlink: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description/robot.urdf.xacro
+[0.674s] -- Up-to-date symlink: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description/robot_core.xacro
+[0.674s] -- Up-to-date symlink: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/config/joystick.yaml
+[0.675s] -- Up-to-date symlink: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/config/robot_sim.rviz
+[0.675s] -- Up-to-date symlink: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/config/twist_mux.yaml
+[0.675s] -- Up-to-date symlink: /simulation/ros2_sim_ws/install/robot_pkg/share/ament_index/resource_index/package_run_dependencies/robot_pkg
+[0.676s] -- Up-to-date symlink: /simulation/ros2_sim_ws/install/robot_pkg/share/ament_index/resource_index/parent_prefix_path/robot_pkg
+[0.676s] -- Up-to-date symlink: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/environment/ament_prefix_path.sh
+[0.677s] -- Up-to-date symlink: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/environment/ament_prefix_path.dsv
+[0.677s] -- Up-to-date symlink: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/environment/path.sh
+[0.677s] -- Up-to-date symlink: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/environment/path.dsv
+[0.678s] -- Up-to-date symlink: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/local_setup.bash
+[0.678s] -- Up-to-date symlink: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/local_setup.sh
+[0.679s] -- Up-to-date symlink: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/local_setup.zsh
+[0.679s] -- Up-to-date symlink: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/local_setup.dsv
+[0.679s] -- Symlinking: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/package.dsv
+[0.696s] -- Up-to-date symlink: /simulation/ros2_sim_ws/install/robot_pkg/share/ament_index/resource_index/packages/robot_pkg
+[0.697s] -- Up-to-date symlink: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/cmake/robot_pkgConfig.cmake
+[0.697s] -- Up-to-date symlink: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/cmake/robot_pkgConfig-version.cmake
+[0.697s] -- Up-to-date symlink: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/package.xml
+[0.702s] Invoked command in '/simulation/ros2_sim_ws/build/robot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/simulation/ros2_sim_ws/install/joystick_tester:/opt/ros/humble /usr/bin/cmake --install /simulation/ros2_sim_ws/build/robot_pkg

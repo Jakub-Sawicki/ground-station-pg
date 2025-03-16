@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing joystick_tester.egg-info/PKG-INFO
+writing dependency_links to joystick_tester.egg-info/dependency_links.txt
+writing entry points to joystick_tester.egg-info/entry_points.txt
+writing requirements to joystick_tester.egg-info/requires.txt
+writing top-level names to joystick_tester.egg-info/top_level.txt
+reading manifest file 'joystick_tester.egg-info/SOURCES.txt'
+writing manifest file 'joystick_tester.egg-info/SOURCES.txt'
+running build_ext
+Creating /simulation/ros2_sim_ws/install/joystick_tester/lib/python3.10/site-packages/joystick-tester.egg-link (link to .)
+Installing joystick_test script to /simulation/ros2_sim_ws/install/joystick_tester/lib/joystick_tester
+
+Installed /simulation/ros2_sim_ws/build/joystick_tester
+running symlink_data

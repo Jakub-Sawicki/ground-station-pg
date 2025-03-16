@@ -45,7 +45,8 @@ RUN sudo apt update && sudo apt install -y \
     ros-humble-navigation2 \
     ros-humble-nav2-bringup \
     ros-humble-cartographer \
-    ros-humble-cartographer-ros
+    ros-humble-cartographer-ros \
+    ros-humble-slam-toolbox -y
 
 # Installing gazebo fortress
 RUN sudo apt-get update && \
@@ -60,9 +61,15 @@ RUN sudo apt install ros-humble-rviz2
 
 # Installing packages to help with urtf file creationg
 RUN sudo apt install ros-humble-xacro ros-humble-joint-state-publisher-gui -y
-
 RUN sudo apt install ros-humble-rqt-graph -y
-
 RUN sudo apt install ros-humble-gazebo-ros-pkgs -y
-
+RUN sudo apt update -y
 RUN sudo apt install ros-humble-teleop-twist-keyboard -y
+
+# Installing packages for robot controll
+RUN sudo apt install ros-humble-ros2-control -y
+RUN sudo apt install ros-humble-ros2-controllers -y
+RUN sudo apt install ros-humble-gazebo-ros2-control -y
+RUN sudo apt install joystick jstest-gtk evtest -y
+RUN sudo apt install ros-humble-joy -y
+RUN sudo apt install python3-tk -y

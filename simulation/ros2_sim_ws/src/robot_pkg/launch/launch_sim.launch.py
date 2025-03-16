@@ -19,6 +19,10 @@ def generate_launch_description():
 
     package_name='robot_pkg'
 
+    # Ścieżka do pliku obstacle.world
+    world_file_name = 'world1.sdf'
+    world_path = os.path.join(get_package_share_directory(package_name), 'worlds', world_file_name)
+
     rsp = IncludeLaunchDescription(
                 PythonLaunchDescriptionSource([os.path.join(
                     get_package_share_directory(package_name),'launch','robot_urdf.launch.py'
@@ -29,7 +33,9 @@ def generate_launch_description():
     gazebo = IncludeLaunchDescription(
                 PythonLaunchDescriptionSource([os.path.join(
                     get_package_share_directory('gazebo_ros'), 'launch', 'gazebo.launch.py')]),
+                launch_arguments={'world': world_path}.items(),
              )
+             
 
     # Run the spawner node from the gazebo_ros package. The entity name doesn't really matter if you only have a single robot.
     spawn_entity = Node(package='gazebo_ros', executable='spawn_entity.py',

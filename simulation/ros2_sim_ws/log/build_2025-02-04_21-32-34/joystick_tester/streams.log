@@ -1,0 +1,19 @@
+[1.279s] Invoking command in '/simulation/ros2_sim_ws/build/joystick_tester': PYTHONPATH=/simulation/ros2_sim_ws/build/joystick_tester/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/simulation/ros2_sim_ws/install/joystick_tester/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /simulation/ros2_sim_ws/build/joystick_tester/build --no-deps symlink_data
+[1.751s] running develop
+[1.751s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.752s]   warnings.warn(
+[1.973s] running egg_info
+[1.973s] writing joystick_tester.egg-info/PKG-INFO
+[1.973s] writing dependency_links to joystick_tester.egg-info/dependency_links.txt
+[1.974s] writing entry points to joystick_tester.egg-info/entry_points.txt
+[1.974s] writing requirements to joystick_tester.egg-info/requires.txt
+[1.974s] writing top-level names to joystick_tester.egg-info/top_level.txt
+[1.977s] reading manifest file 'joystick_tester.egg-info/SOURCES.txt'
+[1.978s] writing manifest file 'joystick_tester.egg-info/SOURCES.txt'
+[1.981s] running build_ext
+[1.981s] Creating /simulation/ros2_sim_ws/install/joystick_tester/lib/python3.10/site-packages/joystick-tester.egg-link (link to .)
+[1.984s] Installing joystick_test script to /simulation/ros2_sim_ws/install/joystick_tester/lib/joystick_tester
+[1.984s] 
+[1.984s] Installed /simulation/ros2_sim_ws/build/joystick_tester
+[1.984s] running symlink_data
+[2.039s] Invoked command in '/simulation/ros2_sim_ws/build/joystick_tester' returned '0': PYTHONPATH=/simulation/ros2_sim_ws/build/joystick_tester/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/simulation/ros2_sim_ws/install/joystick_tester/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /simulation/ros2_sim_ws/build/joystick_tester/build --no-deps symlink_data

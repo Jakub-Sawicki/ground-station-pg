@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+joystick_tester/__init__.py
+joystick_tester/joystick_test.py
+joystick_tester.egg-info/PKG-INFO
+joystick_tester.egg-info/SOURCES.txt
+joystick_tester.egg-info/dependency_links.txt
+joystick_tester.egg-info/entry_points.txt
+joystick_tester.egg-info/requires.txt
+joystick_tester.egg-info/top_level.txt
+joystick_tester.egg-info/zip-safe
+resource/joystick_tester
