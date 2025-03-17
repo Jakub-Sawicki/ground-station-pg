@@ -9,6 +9,7 @@
 /simulation/install/robot_pkg/share/robot_pkg/config/joystick.yaml
 /simulation/install/robot_pkg/share/robot_pkg/config/robot_sim.rviz
 /simulation/install/robot_pkg/share/robot_pkg/config/twist_mux.yaml
+/simulation/install/robot_pkg/lib/robot_pkg/uart_publisher.py
 /simulation/install/robot_pkg/share/ament_index/resource_index/package_run_dependencies/robot_pkg
 /simulation/install/robot_pkg/share/ament_index/resource_index/parent_prefix_path/robot_pkg
 /simulation/install/robot_pkg/share/robot_pkg/environment/ament_prefix_path.sh

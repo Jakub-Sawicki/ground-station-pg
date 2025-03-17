@@ -1,0 +1,167 @@
+[0.000000] (-) TimerEvent: {}
+[0.000638] (-) JobUnselected: {'identifier': 'ldlidar_stl_ros2'}
+[0.000725] (-) JobUnselected: {'identifier': 'navigation_pkg'}
+[0.000802] (-) JobUnselected: {'identifier': 'slam_pkg'}
+[0.000873] (robot_pkg) JobQueued: {'identifier': 'robot_pkg', 'dependencies': OrderedDict()}
+[0.000969] (robot_pkg) JobStarted: {'identifier': 'robot_pkg'}
+[0.008315] (robot_pkg) JobProgress: {'identifier': 'robot_pkg', 'progress': 'cmake'}
+[0.008739] (robot_pkg) Command: {'cmd': ['/usr/bin/cmake', '/simulation/ros2_sim_ws/src/robot_pkg', '-DCMAKE_INSTALL_PREFIX=/simulation/ros2_sim_ws/install/robot_pkg'], 'cwd': '/simulation/ros2_sim_ws/build/robot_pkg', 'env': OrderedDict([('HOSTNAME', 'kamil-laptop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/local/lib:/usr/local/lib:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/simulation'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-5c995a7c-8205-46c5-855c-e9d2b5699759.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/libs/debugpy'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/simulation/ros2_sim_ws/install:/home/ubuntu/serial/build/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-edf98457-7d85-4cd1-af3a-09ebe1fd37f6.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/home/ubuntu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/scripts/noConfigScripts'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-edf98457-7d85-4cd1-af3a-09ebe1fd37f6.sock","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-b771ad5626eb5738.txt'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-8f9f23cfc4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-edf98457-7d85-4cd1-af3a-09ebe1fd37f6.sock'), ('AMENT_PREFIX_PATH', '/simulation/ros2_sim_ws/install/robot_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/simulation/ros2_sim_ws/build/robot_pkg'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/simulation/ros2_sim_ws/install/robot_pkg:/opt/ros/humble')]), 'shell': False}
+[0.062665] (robot_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099940] (-) TimerEvent: {}
+[0.103862] (robot_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.109344] (robot_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.175894] (robot_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.181029] (robot_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.181245] (robot_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.181379] (robot_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.183813] (robot_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.200051] (-) TimerEvent: {}
+[0.255405] (robot_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.264810] (robot_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.265159] (robot_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.265852] (robot_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.269393] (robot_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300184] (-) TimerEvent: {}
+[0.371906] (robot_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.400405] (-) TimerEvent: {}
+[0.449440] (robot_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.492400] (robot_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.500230] (robot_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.500482] (-) TimerEvent: {}
+[0.510476] (robot_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.524002] (robot_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.541112] (robot_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.598867] (robot_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.600595] (-) TimerEvent: {}
+[0.602799] (robot_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700864] (-) TimerEvent: {}
+[0.715440] (robot_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.751333] (robot_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.789907] (robot_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.800587] (robot_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.800989] (-) TimerEvent: {}
+[0.869953] (robot_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.870171] (robot_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.901117] (-) TimerEvent: {}
+[0.940435] (robot_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.941566] (robot_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.977091] (robot_pkg) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.001314] (-) TimerEvent: {}
+[1.046175] (robot_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.055486] (robot_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.059310] (robot_pkg) StdoutLine: {'line': b'-- Build files have been written to: /simulation/ros2_sim_ws/build/robot_pkg\n'}
+[1.069472] (robot_pkg) CommandEnded: {'returncode': 0}
+[1.070005] (robot_pkg) JobProgress: {'identifier': 'robot_pkg', 'progress': 'build'}
+[1.070925] (robot_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/simulation/ros2_sim_ws/build/robot_pkg', '--', '-j12', '-l12'], 'cwd': '/simulation/ros2_sim_ws/build/robot_pkg', 'env': OrderedDict([('HOSTNAME', 'kamil-laptop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/local/lib:/usr/local/lib:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/simulation'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-5c995a7c-8205-46c5-855c-e9d2b5699759.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/libs/debugpy'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/simulation/ros2_sim_ws/install:/home/ubuntu/serial/build/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-edf98457-7d85-4cd1-af3a-09ebe1fd37f6.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/home/ubuntu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/scripts/noConfigScripts'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-edf98457-7d85-4cd1-af3a-09ebe1fd37f6.sock","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-b771ad5626eb5738.txt'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-8f9f23cfc4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-edf98457-7d85-4cd1-af3a-09ebe1fd37f6.sock'), ('AMENT_PREFIX_PATH', '/simulation/ros2_sim_ws/install/robot_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/simulation/ros2_sim_ws/build/robot_pkg'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/simulation/ros2_sim_ws/install/robot_pkg:/opt/ros/humble')]), 'shell': False}
+[1.101489] (-) TimerEvent: {}
+[1.135035] (robot_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/uart_publisher.dir/src/uart_publisher.cpp.o\x1b[0m\n'}
+[1.201737] (-) TimerEvent: {}
+[1.302149] (-) TimerEvent: {}
+[1.402523] (-) TimerEvent: {}
+[1.502891] (-) TimerEvent: {}
+[1.603510] (-) TimerEvent: {}
+[1.703959] (-) TimerEvent: {}
+[1.804399] (-) TimerEvent: {}
+[1.904855] (-) TimerEvent: {}
+[2.005405] (-) TimerEvent: {}
+[2.105851] (-) TimerEvent: {}
+[2.206159] (-) TimerEvent: {}
+[2.306471] (-) TimerEvent: {}
+[2.407006] (-) TimerEvent: {}
+[2.507496] (-) TimerEvent: {}
+[2.607996] (-) TimerEvent: {}
+[2.708326] (-) TimerEvent: {}
+[2.808734] (-) TimerEvent: {}
+[2.909063] (-) TimerEvent: {}
+[3.009494] (-) TimerEvent: {}
+[3.109858] (-) TimerEvent: {}
+[3.210171] (-) TimerEvent: {}
+[3.310572] (-) TimerEvent: {}
+[3.410977] (-) TimerEvent: {}
+[3.511563] (-) TimerEvent: {}
+[3.612019] (-) TimerEvent: {}
+[3.712491] (-) TimerEvent: {}
+[3.813026] (-) TimerEvent: {}
+[3.913431] (-) TimerEvent: {}
+[4.013791] (-) TimerEvent: {}
+[4.114276] (-) TimerEvent: {}
+[4.214611] (-) TimerEvent: {}
+[4.315093] (-) TimerEvent: {}
+[4.415652] (-) TimerEvent: {}
+[4.516095] (-) TimerEvent: {}
+[4.616551] (-) TimerEvent: {}
+[4.716949] (-) TimerEvent: {}
+[4.817378] (-) TimerEvent: {}
+[4.917728] (-) TimerEvent: {}
+[5.018286] (-) TimerEvent: {}
+[5.118888] (-) TimerEvent: {}
+[5.219415] (-) TimerEvent: {}
+[5.319697] (-) TimerEvent: {}
+[5.420019] (-) TimerEvent: {}
+[5.520313] (-) TimerEvent: {}
+[5.620591] (-) TimerEvent: {}
+[5.720892] (-) TimerEvent: {}
+[5.821141] (-) TimerEvent: {}
+[5.921379] (-) TimerEvent: {}
+[6.021664] (-) TimerEvent: {}
+[6.122064] (-) TimerEvent: {}
+[6.222436] (-) TimerEvent: {}
+[6.322819] (-) TimerEvent: {}
+[6.423208] (-) TimerEvent: {}
+[6.523504] (-) TimerEvent: {}
+[6.623879] (-) TimerEvent: {}
+[6.724255] (-) TimerEvent: {}
+[6.824622] (-) TimerEvent: {}
+[6.924908] (-) TimerEvent: {}
+[7.025273] (-) TimerEvent: {}
+[7.125651] (-) TimerEvent: {}
+[7.226054] (-) TimerEvent: {}
+[7.326376] (-) TimerEvent: {}
+[7.426810] (-) TimerEvent: {}
+[7.527203] (-) TimerEvent: {}
+[7.627599] (-) TimerEvent: {}
+[7.728002] (-) TimerEvent: {}
+[7.804131] (robot_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable uart_publisher\x1b[0m\n'}
+[7.828205] (-) TimerEvent: {}
+[7.928583] (-) TimerEvent: {}
+[8.028962] (-) TimerEvent: {}
+[8.128401] (robot_pkg) StdoutLine: {'line': b'[100%] Built target uart_publisher\n'}
+[8.129019] (-) TimerEvent: {}
+[8.138152] (robot_pkg) CommandEnded: {'returncode': 0}
+[8.138712] (robot_pkg) JobProgress: {'identifier': 'robot_pkg', 'progress': 'install'}
+[8.146882] (robot_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/simulation/ros2_sim_ws/build/robot_pkg'], 'cwd': '/simulation/ros2_sim_ws/build/robot_pkg', 'env': OrderedDict([('HOSTNAME', 'kamil-laptop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/local/lib:/usr/local/lib:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/simulation'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-5c995a7c-8205-46c5-855c-e9d2b5699759.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/libs/debugpy'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/simulation/ros2_sim_ws/install:/home/ubuntu/serial/build/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-edf98457-7d85-4cd1-af3a-09ebe1fd37f6.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/home/ubuntu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/scripts/noConfigScripts'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-edf98457-7d85-4cd1-af3a-09ebe1fd37f6.sock","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-b771ad5626eb5738.txt'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-8f9f23cfc4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-edf98457-7d85-4cd1-af3a-09ebe1fd37f6.sock'), ('AMENT_PREFIX_PATH', '/simulation/ros2_sim_ws/install/robot_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/simulation/ros2_sim_ws/build/robot_pkg'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/simulation/ros2_sim_ws/install/robot_pkg:/opt/ros/humble')]), 'shell': False}
+[8.157872] (robot_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.158424] (robot_pkg) StdoutLine: {'line': b'-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/lib/robot_pkg/uart_publisher\n'}
+[8.161429] (robot_pkg) StdoutLine: {'line': b'-- Set runtime path of "/simulation/ros2_sim_ws/install/robot_pkg/lib/robot_pkg/uart_publisher" to ""\n'}
+[8.161610] (robot_pkg) StdoutLine: {'line': b'-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/launch\n'}
+[8.161794] (robot_pkg) StdoutLine: {'line': b'-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/launch/joystick.launch.py\n'}
+[8.161958] (robot_pkg) StdoutLine: {'line': b'-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/launch/robot_urdf.launch.py\n'}
+[8.162280] (robot_pkg) StdoutLine: {'line': b'-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/launch/launch_sim.launch.py\n'}
+[8.162676] (robot_pkg) StdoutLine: {'line': b'-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description\n'}
+[8.162916] (robot_pkg) StdoutLine: {'line': b'-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description/robot_core.xacro\n'}
+[8.163084] (robot_pkg) StdoutLine: {'line': b'-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description/inertial_macros.xacro\n'}
+[8.163364] (robot_pkg) StdoutLine: {'line': b'-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description/gazebo_control.xacro\n'}
+[8.163630] (robot_pkg) StdoutLine: {'line': b'-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description/lidar.xacro\n'}
+[8.163918] (robot_pkg) StdoutLine: {'line': b'-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description/robot.urdf.xacro\n'}
+[8.164317] (robot_pkg) StdoutLine: {'line': b'-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/config\n'}
+[8.164429] (robot_pkg) StdoutLine: {'line': b'-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/config/twist_mux.yaml\n'}
+[8.164826] (robot_pkg) StdoutLine: {'line': b'-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/config/robot_sim.rviz\n'}
+[8.165310] (robot_pkg) StdoutLine: {'line': b'-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/config/joystick.yaml\n'}
+[8.165844] (robot_pkg) StdoutLine: {'line': b'-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/ament_index/resource_index/package_run_dependencies/robot_pkg\n'}
+[8.166123] (robot_pkg) StdoutLine: {'line': b'-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/ament_index/resource_index/parent_prefix_path/robot_pkg\n'}
+[8.166355] (robot_pkg) StdoutLine: {'line': b'-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/environment/ament_prefix_path.sh\n'}
+[8.166549] (robot_pkg) StdoutLine: {'line': b'-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/environment/ament_prefix_path.dsv\n'}
+[8.166858] (robot_pkg) StdoutLine: {'line': b'-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/environment/path.sh\n'}
+[8.167044] (robot_pkg) StdoutLine: {'line': b'-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/environment/path.dsv\n'}
+[8.167212] (robot_pkg) StdoutLine: {'line': b'-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/local_setup.bash\n'}
+[8.167364] (robot_pkg) StdoutLine: {'line': b'-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/local_setup.sh\n'}
+[8.167558] (robot_pkg) StdoutLine: {'line': b'-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/local_setup.zsh\n'}
+[8.167703] (robot_pkg) StdoutLine: {'line': b'-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/local_setup.dsv\n'}
+[8.167868] (robot_pkg) StdoutLine: {'line': b'-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/package.dsv\n'}
+[8.168013] (robot_pkg) StdoutLine: {'line': b'-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/ament_index/resource_index/packages/robot_pkg\n'}
+[8.168155] (robot_pkg) StdoutLine: {'line': b'-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/cmake/robot_pkgConfig.cmake\n'}
+[8.168276] (robot_pkg) StdoutLine: {'line': b'-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/cmake/robot_pkgConfig-version.cmake\n'}
+[8.168406] (robot_pkg) StdoutLine: {'line': b'-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/package.xml\n'}
+[8.169763] (robot_pkg) CommandEnded: {'returncode': 0}
+[8.183783] (robot_pkg) JobEnded: {'identifier': 'robot_pkg', 'rc': 0}
+[8.184681] (-) EventReactorShutdown: {}

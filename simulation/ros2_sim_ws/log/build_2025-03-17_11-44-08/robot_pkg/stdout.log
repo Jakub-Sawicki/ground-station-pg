@@ -1,0 +1,36 @@
+[35m[1mConsolidate compiler generated dependencies of target uart_publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/uart_publisher.dir/src/uart_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable uart_publisher[0m
+[100%] Built target uart_publisher
+-- Install configuration: ""
+-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/lib/robot_pkg/uart_publisher
+-- Set runtime path of "/simulation/ros2_sim_ws/install/robot_pkg/lib/robot_pkg/uart_publisher" to ""
+-- Up-to-date: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/launch
+-- Up-to-date: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/launch/joystick.launch.py
+-- Up-to-date: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/launch/robot_urdf.launch.py
+-- Up-to-date: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/launch/launch_sim.launch.py
+-- Up-to-date: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description
+-- Up-to-date: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description/robot_core.xacro
+-- Up-to-date: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description/inertial_macros.xacro
+-- Up-to-date: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description/gazebo_control.xacro
+-- Up-to-date: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description/lidar.xacro
+-- Up-to-date: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description/robot.urdf.xacro
+-- Up-to-date: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/config
+-- Up-to-date: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/config/twist_mux.yaml
+-- Up-to-date: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/config/robot_sim.rviz
+-- Up-to-date: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/config/joystick.yaml
+-- Up-to-date: /simulation/ros2_sim_ws/install/robot_pkg/share/ament_index/resource_index/package_run_dependencies/robot_pkg
+-- Up-to-date: /simulation/ros2_sim_ws/install/robot_pkg/share/ament_index/resource_index/parent_prefix_path/robot_pkg
+-- Up-to-date: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/environment/path.sh
+-- Up-to-date: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/environment/path.dsv
+-- Up-to-date: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/local_setup.bash
+-- Up-to-date: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/local_setup.sh
+-- Up-to-date: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/local_setup.zsh
+-- Up-to-date: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/local_setup.dsv
+-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/package.dsv
+-- Up-to-date: /simulation/ros2_sim_ws/install/robot_pkg/share/ament_index/resource_index/packages/robot_pkg
+-- Up-to-date: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/cmake/robot_pkgConfig.cmake
+-- Up-to-date: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/cmake/robot_pkgConfig-version.cmake
+-- Up-to-date: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/package.xml

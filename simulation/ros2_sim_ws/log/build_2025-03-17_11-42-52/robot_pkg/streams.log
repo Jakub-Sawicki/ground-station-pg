@@ -1,0 +1,75 @@
+[0.011s] Invoking command in '/simulation/ros2_sim_ws/build/robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /simulation/ros2_sim_ws/src/robot_pkg -DCMAKE_INSTALL_PREFIX=/simulation/ros2_sim_ws/install/robot_pkg
+[0.062s] -- The C compiler identification is GNU 11.4.0
+[0.103s] -- The CXX compiler identification is GNU 11.4.0
+[0.109s] -- Detecting C compiler ABI info
+[0.175s] -- Detecting C compiler ABI info - done
+[0.180s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.180s] -- Detecting C compile features
+[0.180s] -- Detecting C compile features - done
+[0.183s] -- Detecting CXX compiler ABI info
+[0.255s] -- Detecting CXX compiler ABI info - done
+[0.264s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.264s] -- Detecting CXX compile features
+[0.265s] -- Detecting CXX compile features - done
+[0.268s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.371s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.449s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.492s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.499s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.510s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.523s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.540s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.598s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.602s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.715s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.750s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.789s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.800s] -- Looking for pthread.h
+[0.869s] -- Looking for pthread.h - found
+[0.869s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.940s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.941s] -- Found Threads: TRUE  
+[0.976s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.045s] -- Configuring done
+[1.055s] -- Generating done
+[1.058s] -- Build files have been written to: /simulation/ros2_sim_ws/build/robot_pkg
+[1.069s] Invoked command in '/simulation/ros2_sim_ws/build/robot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /simulation/ros2_sim_ws/src/robot_pkg -DCMAKE_INSTALL_PREFIX=/simulation/ros2_sim_ws/install/robot_pkg
+[1.071s] Invoking command in '/simulation/ros2_sim_ws/build/robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /simulation/ros2_sim_ws/build/robot_pkg -- -j12 -l12
+[1.134s] [ 50%] [32mBuilding CXX object CMakeFiles/uart_publisher.dir/src/uart_publisher.cpp.o[0m
+[7.803s] [100%] [32m[1mLinking CXX executable uart_publisher[0m
+[8.128s] [100%] Built target uart_publisher
+[8.137s] Invoked command in '/simulation/ros2_sim_ws/build/robot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /simulation/ros2_sim_ws/build/robot_pkg -- -j12 -l12
+[8.147s] Invoking command in '/simulation/ros2_sim_ws/build/robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /simulation/ros2_sim_ws/build/robot_pkg
+[8.157s] -- Install configuration: ""
+[8.158s] -- Installing: /simulation/ros2_sim_ws/install/robot_pkg/lib/robot_pkg/uart_publisher
+[8.161s] -- Set runtime path of "/simulation/ros2_sim_ws/install/robot_pkg/lib/robot_pkg/uart_publisher" to ""
+[8.161s] -- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/launch
+[8.161s] -- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/launch/joystick.launch.py
+[8.161s] -- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/launch/robot_urdf.launch.py
+[8.162s] -- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/launch/launch_sim.launch.py
+[8.162s] -- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description
+[8.162s] -- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description/robot_core.xacro
+[8.162s] -- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description/inertial_macros.xacro
+[8.162s] -- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description/gazebo_control.xacro
+[8.163s] -- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description/lidar.xacro
+[8.163s] -- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description/robot.urdf.xacro
+[8.163s] -- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/config
+[8.163s] -- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/config/twist_mux.yaml
+[8.164s] -- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/config/robot_sim.rviz
+[8.164s] -- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/config/joystick.yaml
+[8.165s] -- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/ament_index/resource_index/package_run_dependencies/robot_pkg
+[8.165s] -- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/ament_index/resource_index/parent_prefix_path/robot_pkg
+[8.166s] -- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/environment/ament_prefix_path.sh
+[8.166s] -- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/environment/ament_prefix_path.dsv
+[8.166s] -- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/environment/path.sh
+[8.166s] -- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/environment/path.dsv
+[8.166s] -- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/local_setup.bash
+[8.167s] -- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/local_setup.sh
+[8.167s] -- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/local_setup.zsh
+[8.167s] -- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/local_setup.dsv
+[8.167s] -- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/package.dsv
+[8.167s] -- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/ament_index/resource_index/packages/robot_pkg
+[8.167s] -- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/cmake/robot_pkgConfig.cmake
+[8.167s] -- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/cmake/robot_pkgConfig-version.cmake
+[8.167s] -- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/package.xml
+[8.169s] Invoked command in '/simulation/ros2_sim_ws/build/robot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /simulation/ros2_sim_ws/build/robot_pkg

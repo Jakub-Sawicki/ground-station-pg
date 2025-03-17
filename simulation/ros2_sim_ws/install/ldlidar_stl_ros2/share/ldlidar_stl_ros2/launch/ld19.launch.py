@@ -1,1 +1,0 @@
-/simulation/ros2_sim_ws/src/ldlidar_stl_ros2/launch/ld19.launch.py

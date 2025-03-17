@@ -1,0 +1,9 @@
+[0.000000] (-) TimerEvent: {}
+[0.000575] (-) JobUnselected: {'identifier': 'ldlidar_stl_ros2'}
+[0.000691] (-) JobUnselected: {'identifier': 'navigation_pkg'}
+[0.000714] (-) JobUnselected: {'identifier': 'serial'}
+[0.000733] (-) JobUnselected: {'identifier': 'slam_pkg'}
+[0.000752] (robot_pkg) JobQueued: {'identifier': 'robot_pkg', 'dependencies': OrderedDict([('serial', '/simulation/ros2_sim_ws/install/serial')])}
+[0.000775] (robot_pkg) JobStarted: {'identifier': 'robot_pkg'}
+[0.009830] (robot_pkg) JobEnded: {'identifier': 'robot_pkg', 'rc': 1}
+[0.020423] (-) EventReactorShutdown: {}

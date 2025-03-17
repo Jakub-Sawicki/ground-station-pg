@@ -197,6 +197,43 @@ robot_pkg_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_pkg_uninstall.dir/build.make CMakeFiles/robot_pkg_uninstall.dir/build
 .PHONY : robot_pkg_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named uart_publisher
+
+# Build rule for target.
+uart_publisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 uart_publisher
+.PHONY : uart_publisher
+
+# fast build rule for target.
+uart_publisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/uart_publisher.dir/build.make CMakeFiles/uart_publisher.dir/build
+.PHONY : uart_publisher/fast
+
+src/uart_publisher.o: src/uart_publisher.cpp.o
+.PHONY : src/uart_publisher.o
+
+# target to build an object file
+src/uart_publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/uart_publisher.dir/build.make CMakeFiles/uart_publisher.dir/src/uart_publisher.cpp.o
+.PHONY : src/uart_publisher.cpp.o
+
+src/uart_publisher.i: src/uart_publisher.cpp.i
+.PHONY : src/uart_publisher.i
+
+# target to preprocess a source file
+src/uart_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/uart_publisher.dir/build.make CMakeFiles/uart_publisher.dir/src/uart_publisher.cpp.i
+.PHONY : src/uart_publisher.cpp.i
+
+src/uart_publisher.s: src/uart_publisher.cpp.s
+.PHONY : src/uart_publisher.s
+
+# target to generate assembly for a file
+src/uart_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/uart_publisher.dir/build.make CMakeFiles/uart_publisher.dir/src/uart_publisher.cpp.s
+.PHONY : src/uart_publisher.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... robot_pkg_uninstall"
 	@echo "... uninstall"
+	@echo "... uart_publisher"
+	@echo "... src/uart_publisher.o"
+	@echo "... src/uart_publisher.i"
+	@echo "... src/uart_publisher.s"
 .PHONY : help
 
 

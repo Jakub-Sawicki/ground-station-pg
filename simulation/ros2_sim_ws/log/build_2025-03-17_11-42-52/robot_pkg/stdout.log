@@ -1,0 +1,69 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /simulation/ros2_sim_ws/build/robot_pkg
+[ 50%] [32mBuilding CXX object CMakeFiles/uart_publisher.dir/src/uart_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable uart_publisher[0m
+[100%] Built target uart_publisher
+-- Install configuration: ""
+-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/lib/robot_pkg/uart_publisher
+-- Set runtime path of "/simulation/ros2_sim_ws/install/robot_pkg/lib/robot_pkg/uart_publisher" to ""
+-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/launch
+-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/launch/joystick.launch.py
+-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/launch/robot_urdf.launch.py
+-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/launch/launch_sim.launch.py
+-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description
+-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description/robot_core.xacro
+-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description/inertial_macros.xacro
+-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description/gazebo_control.xacro
+-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description/lidar.xacro
+-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/description/robot.urdf.xacro
+-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/config
+-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/config/twist_mux.yaml
+-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/config/robot_sim.rviz
+-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/config/joystick.yaml
+-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/ament_index/resource_index/package_run_dependencies/robot_pkg
+-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/ament_index/resource_index/parent_prefix_path/robot_pkg
+-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/environment/ament_prefix_path.sh
+-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/environment/ament_prefix_path.dsv
+-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/environment/path.sh
+-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/environment/path.dsv
+-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/local_setup.bash
+-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/local_setup.sh
+-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/local_setup.zsh
+-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/local_setup.dsv
+-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/package.dsv
+-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/ament_index/resource_index/packages/robot_pkg
+-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/cmake/robot_pkgConfig.cmake
+-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/cmake/robot_pkgConfig-version.cmake
+-- Installing: /simulation/ros2_sim_ws/install/robot_pkg/share/robot_pkg/package.xml

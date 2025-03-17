@@ -313,6 +313,9 @@ message(STATUS "Execute custom install script")
 # install(DIRECTORY "launch" "description" "config" "DESTINATION" "share/robot_pkg")
 ament_cmake_symlink_install_directory("/simulation/ros2_sim_ws/src/robot_pkg" DIRECTORY "launch" "description" "config" "DESTINATION" "share/robot_pkg")
 
+# install(PROGRAMS "scripts/uart_publisher.py" "DESTINATION" "lib/robot_pkg")
+ament_cmake_symlink_install_programs("/simulation/ros2_sim_ws/src/robot_pkg" PROGRAMS "scripts/uart_publisher.py" "DESTINATION" "lib/robot_pkg")
+
 # install(FILES "/simulation/build/robot_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robot_pkg" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/simulation/ros2_sim_ws/src/robot_pkg" FILES "/simulation/build/robot_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robot_pkg" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
